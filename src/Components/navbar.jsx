@@ -38,7 +38,7 @@ const Navbar = () => {
       ];
   return (
     <>
-    <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${isScrolled ? "bg-[#05041480] bg-opacity-80 backdrop:blur-3xl shadow-md":"bg-transparent"}`}>
+    <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[12vw] lg:px-[20vw] ${isScrolled ? "bg-[#05041480] bg-opacity-80 backdrop:blur-3xl shadow-md":"bg-transparent"}`}>
       <div className='text-white py-4 px-1 flex flex-row justify-between items-center'>
         <img src="/profile.png" alt="" className='h-8 w-13'/>
         <ul className=' hidden md:flex space-x-8 text-white ml-8 text-3xl text-bold'>
