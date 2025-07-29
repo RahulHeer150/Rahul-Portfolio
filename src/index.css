@@ -1,0 +1,19 @@
+/* Uncomment the following lines if Tailwind CSS is properly set up in your build process
+@import "tailwindcss";
+
+@theme{
+    --color-border:hsl(var(--border));
+    --color-background:hsl(var(--background));
+     --color-foreground:hsl(var(--foreground));
+
+    --color-primary:hsl(var(--primary));
+    --color-primary-foreground:hsl(var(--primary-foreground));
+
+    --color-card:hsl(var(--card))
+
+    --animate-float:float 6s ease-in-out infinite;
+
+} */
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
