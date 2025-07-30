@@ -30,12 +30,13 @@ const Navbar = () => {
       setActiveSection(sectionId);
       setIsOpen(false);
   }
-      const MenuItems=[
-        { id:"home", label:"Home", icon: <AiOutlineHome className="inline mr-2" />},
-        { id:"about", label:"About", icon: <AiOutlineUser className="inline mr-2" /> },
-        { id:"project", label:"Project", icon: <AiOutlineFundProjectionScreen className="inline mr-2" /> },
-        { id:"skills", label:"Skills", icon: <AiFillStar className="inline mr-2" /> },
-      ];
+      const MenuItems = [
+  { id: "home", label: "Home", icon: <AiOutlineHome className="inline mr-2" />, to: "/" },
+  { id: "about", label: "About", icon: <AiOutlineUser className="inline mr-2" />, to: "/about" },
+  { id: "project", label: "Project", icon: <AiOutlineFundProjectionScreen className="inline mr-2" />, to: "/projects" },
+  { id: "skills", label: "Skills", icon: <AiFillStar className="inline mr-2" />, to: "/skills" },
+];
+
   return (
     <>
     <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[12vw] lg:px-[20vw] ${isScrolled ? "bg-[#05041480] bg-opacity-80 backdrop:blur-3xl shadow-md":"bg-transparent"}`}>
@@ -44,10 +45,12 @@ const Navbar = () => {
         <ul className=' hidden md:flex space-x-8 text-white ml-8 text-3xl text-bold'>
           {MenuItems.map((item) => (
             <li key={item.id} className={`cursor-pointer hover:text-sky-400 ${activeSection === item.id ? "text-sky-500" : ""}` }>
-              <button className="flex items-center gap-2 border-b-4 border-transparent hover:border-sky-400 pb-2 hover:text-sky-400  transition-all duration-300 " onClick={()=>handlemenuClick(item.id)}>
+              <Link className="flex items-center gap-2 border-b-4 border-transparent hover:border-sky-400 pb-2 hover:text-sky-400  transition-all duration-300 " 
+              to={item.to}
+              onClick={()=>handlemenuClick(item.id)}>
                 {item.icon}
                 {item.label}
-              </button>
+              </Link>
             </li>
           ))}
         </ul>
@@ -68,10 +71,12 @@ const Navbar = () => {
           <ul className='flex flex-col items-center space-y-4 py-4 text-white'>
               {MenuItems.map((item) => (
             <li key={item.id} className='cursor-pointer '>
-              <button  className="flex items-center gap-2 border-b-4 border-transparent hover:border-white hover:text-gray-300 transition-all duration-200 " onClick={()=>handlemenuClick(item.id)}>
+              <Link  className="flex items-center gap-2 border-b-4 border-transparent hover:border-white hover:text-gray-300 transition-all duration-200 " 
+              to={item.to}
+              onClick={()=>handlemenuClick(item.id)}>
                 {item.icon}
                 {item.label}
-              </button>
+              </Link>
             </li>
           ))}
           </ul>

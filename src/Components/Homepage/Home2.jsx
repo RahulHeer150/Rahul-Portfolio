@@ -32,10 +32,10 @@ const Home2 = () => {
             <br />
             My journey is fueled by a deep-seated curiosity to build impactful
             solutions that resonate with users. Leveraging tools like{" "}
-            <b className="purple">Node.js</b> and modern JavaScript libraries
+            <b className="text-sky-400">Node.js</b> and modern JavaScript libraries
             and frameworks such as{" "}
             <i>
-              <b className="purple">React.js</b>
+              <b className="text-sky-400">React.js</b>
             </i>
             , I bring ideas to life, one line of code at a time.
             <br />
