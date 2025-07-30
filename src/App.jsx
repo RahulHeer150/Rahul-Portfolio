@@ -9,7 +9,7 @@ import Contact from './Components/Contact'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import BlurBlob from './Components/Homepage/BlurBlob'
-import Loader from '../public/Loader.gif'
+import Preloader from '../src/Components/Pre'
 import { useEffect} from 'react'
 
 function App() {
@@ -27,7 +27,8 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Loader load={load}/>
+    <Preloader load={load}/>
+    <div className='App' id={load ? "no-scroll" : "scroll"}>
       <Navbar />
       <div className="bg-[#050414] min-h-screen">
         <BlurBlob position={{ top: '35%', left: '20%' }} size={{ width: '30%', height: '40%' }} />
@@ -40,6 +41,7 @@ function App() {
         </Routes>
 
         <Footer />
+        </div>
       </div>
     </BrowserRouter>
   )
