@@ -34,7 +34,7 @@ const Navbar = () => {
   { id: "home", label: "Home", icon: <AiOutlineHome className="inline mr-2" />, to: "/" },
   { id: "about", label: "About", icon: <AiOutlineUser className="inline mr-2" />, to: "/about" },
   { id: "project", label: "Project", icon: <AiOutlineFundProjectionScreen className="inline mr-2" />, to: "/projects" },
-  { id: "skills", label: "Skills", icon: <AiFillStar className="inline mr-2" />, to: "/skills" },
+  { id: "skills", label: "Skills", icon: <AiFillStar className="inline mr-2" />, to: "/SkillSection" },
 ];
 
   return (

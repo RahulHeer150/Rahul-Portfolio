@@ -10,6 +10,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import BlurBlob from './Components/Homepage/BlurBlob'
 import Preloader from '../src/Components/Pre'
+import SkillSection from './Components/Skills/SkillSection'
 import { useEffect} from 'react'
 
 function App() {
@@ -38,7 +39,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/skill" element={<SkillSection/>} />
         </Routes>
+        <SkillSection/>
 
         <Footer />
         </div>
