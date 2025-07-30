@@ -44,7 +44,7 @@ const CircularProgress = ({ percentage, label }) => {
           }}
         />
       </svg>
-      <div className="absolute text-white text-lg font-bold">
+      <div className="absolute text-white text-lg font-bold pb-9">
         <CountUp end={percentage} duration={1.5} />%
       </div>
       <p className="text-white text-sm text-center mt-2">{label}</p>

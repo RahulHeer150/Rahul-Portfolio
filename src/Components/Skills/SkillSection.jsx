@@ -2,10 +2,13 @@
 import React from 'react';
 import SkillBar from '../Skills/SkillBar';
 import CircularProgress from '../Skills/CircularProgress';
+import Techstack from '../AboutPage/TechStack';
 
 const SkillSection = () => {
   return (
-    <section className="bg-[#2a2d33] text-white py-16 px-6 md:px-20">
+    <>
+    <Techstack/>
+    <section className="bg-[#131c2c] text-white py-16 px-6 md:px-20">
       <div className="grid md:grid-cols-2 gap-10">
         {/* Technical Skills */}
         <div>
@@ -33,6 +36,7 @@ const SkillSection = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
