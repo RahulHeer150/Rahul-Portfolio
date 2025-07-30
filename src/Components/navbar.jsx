@@ -42,7 +42,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[12vw] lg:px-[10vw] ${isScrolled ? "bg-[#05041480] bg-opacity-80 backdrop:blur-3xl shadow-md":"bg-transparent"}`}>
       <div className='text-white py-4 px-1 flex flex-row justify-between items-center'>
         <img src="/profile.png" alt="" className='h-8 w-13'/>
-        <ul className=' hidden lg:flex space-x-8 text-white ml-3 text-3xl text-bold'>
+        <ul className=' hidden lg:flex space-x-8 text-white ml-8 text-3xl text-bold'>
           {MenuItems.map((item) => (
             <li key={item.id} className={`cursor-pointer hover:text-sky-400 ${activeSection === item.id ? "text-sky-500" : ""}` }>
               <Link className="flex items-center gap-2 border-b-4 border-transparent hover:border-sky-400 pb-2 hover:text-sky-400  transition-all duration-300 " 

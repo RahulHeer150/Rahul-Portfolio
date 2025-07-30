@@ -5,7 +5,7 @@ import Type from './Type'
 
 const Home1 = () => {
   return (
-    <section id='about' className='px-4 md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32 bg-[#050414]'>
+    <section id='about' className='px-4 md:px-[10vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32 bg-[#050414]'>
       <div className='flex flex-col-reverse md:flex-row justify-between items-center'>
         <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
 

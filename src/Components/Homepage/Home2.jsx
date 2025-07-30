@@ -5,7 +5,7 @@ import Find from "../Find_me";
 
 const Home2 = () => {
   return (
-    <div className="bg-aboutgradient py-24 pb-24 md:px-[4vw] px-[6vw] lg:px-[10vw] bg-[#050414]">
+    <div className="bg-aboutgradient py-24 pb-24 md:px-[4vw] px-[6vw] lg:px-[10vw] bg-[#050414] ">
       <h1 className="text-5xl font-sans text-white text-center">
         LET ME{" "}
         <span className="text-5xl font-sans text-sky-400 text-center">
