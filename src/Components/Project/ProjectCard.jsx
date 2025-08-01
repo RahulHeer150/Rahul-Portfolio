@@ -6,7 +6,7 @@ function ProjectCards(props) {
   return (
     <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
       <img
-        className="w-full h-48 object-cover"
+        className=" object-cover"
         src={props.imgPath}
         alt="card-img"
       />

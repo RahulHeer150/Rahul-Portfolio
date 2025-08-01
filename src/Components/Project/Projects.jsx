@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard"; // Assuming you have a ProjectCard component
 import Particle from "../Particle";
-import profile from "../../Assets/profile.png"; // Assuming you have a profile image
+import Portfolioimg from '../../assets/Portfolioimg.jpg'; // Assuming you have a profile image
 
 
 function Projects() {
@@ -42,9 +42,9 @@ function Projects() {
         <p className="text-center text-xl mb-10">
           Here are a few projects I've worked on recently.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center items-center gap-8 px-4 py-12">
           <ProjectCard
-            imgPath={profile}
+            imgPath={Portfolioimg}
             techStack={
               <div className="tech-stack">
                 <img src={react} alt="React" className="tech-stack-img" />
