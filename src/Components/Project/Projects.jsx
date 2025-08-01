@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard"; // Assuming you have a ProjectCard component
 import Particle from "../Particle";
-import Portfolioimg from '../../assets/Portfolioimg.jpg'; // Assuming you have a profile image
+import portfolioimg from '../../assets/portfolioimg.jpg'; // Assuming you have a profile image
 
 
 function Projects() {
@@ -44,7 +44,7 @@ function Projects() {
         </p>
         <div className="flex flex-wrap justify-center items-center gap-8 px-4 py-12">
           <ProjectCard
-            imgPath={Portfolioimg}
+            imgPath={portfolioimg}
             techStack={
               <div className="tech-stack">
                 <img src={react} alt="React" className="tech-stack-img" />
