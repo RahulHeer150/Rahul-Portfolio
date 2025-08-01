@@ -36,10 +36,10 @@ function Projects() {
     <div className="bg-gray-900 text-white py-10">
       <Particle />
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-6">
-          My Recent <span className="text-purple-500">Works</span>
+        <h1 className="text-4xl font-bold text-center mb-6 mt-6">
+          My Recent <span className="text-sky-400">Works</span>
         </h1>
-        <p className="text-center mb-10">
+        <p className="text-center text-xl mb-10">
           Here are a few projects I've worked on recently.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
