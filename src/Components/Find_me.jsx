@@ -11,9 +11,9 @@ import { Link } from 'react-router-dom';
 const Find = () => {
     const social=[
         {icon: <AiFillGithub size={30}/>,to:"https://github.com/RahulHeer150"},
-        {icon: <AiFillInstagram size={30}/>,to:""},
-        {icon: <AiOutlineTwitter size={30}/>,to:""},
-        {icon: <FaLinkedinIn size={30}/>,to:""}
+        {icon: <AiFillInstagram size={30}/>,to:"/instagram.com/official_rahulheer"},
+        {icon: <AiOutlineTwitter size={30}/>,to:"/"},
+        {icon: <FaLinkedinIn size={30}/>,to:"/"}
        
       ]
   return (
