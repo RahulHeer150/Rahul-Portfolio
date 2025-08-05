@@ -5,14 +5,15 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Find = () => {
     const social=[
-        {icon: <AiFillGithub size={30}/>},
-        {icon: <AiFillInstagram size={30}/>},
-        {icon: <AiOutlineTwitter size={30}/>},
-        {icon: <FaLinkedinIn size={30}/>}
+        {icon: <AiFillGithub size={30}/>,to:"https://github.com/RahulHeer150"},
+        {icon: <AiFillInstagram size={30}/>,to:""},
+        {icon: <AiOutlineTwitter size={30}/>,to:""},
+        {icon: <FaLinkedinIn size={30}/>,to:""}
        
       ]
   return (
@@ -29,12 +30,12 @@ const Find = () => {
         </p>
         <div className=" flex gap-5 pt-6 item-center justify-center">
            {social.map((social, index) => (
-          <div
+          <Link
             key={index}
             className="w-17 h-17 p-3 bg-sky-500 text-center text-black  hover:scale-110 transition-transform duration-300 border rounded-full"
           >
             {social.icon}
-          </div>
+          </Link>
         ))}
     </div>
     </div>
