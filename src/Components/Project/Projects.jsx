@@ -61,7 +61,7 @@ function Projects() {
             title="Personal Portfolio Website"
             description="A personal portfolio website showcasing my skills, projects, and experiences. Built with React, Tailwind-CSS, and Framer-motion, it features a responsive design and a user-friendly interface."
             ghLink=""
-            demoLink="https://ptustudyzone.vercel.app/"
+            demoLink="rahul-portfolio-omega-murex.vercel.app"
           />
           
         </div>
