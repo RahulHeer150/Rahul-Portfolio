@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard"; // Assuming you have a ProjectCard component
 import Particle from "../Particle";
 import portfolioimg from '../../assets/portfolioimg.jpg'; // Assuming you have a profile image
+import newsimg from '../../assets/image.png';
 
 
 function Projects() {
@@ -62,6 +63,27 @@ function Projects() {
             description="A personal portfolio website showcasing my skills, projects, and experiences. Built with React, Tailwind-CSS, and Framer-motion, it features a responsive design and a user-friendly interface."
             ghLink=""
             demoLink="rahul-portfolio-omega-murex.vercel.app"
+          />
+
+          <ProjectCard
+            imgPath={newsimg}
+            techStack={
+              <div className="tech-stack">
+                <img src={react} alt="React" className="tech-stack-img" />
+                
+                
+                <img src={node} alt="Node.js" className="tech-stack-img" />
+                <img src={tailwindcss} alt="Tailwind CSS" className="tech-stack-img" />
+                <img src={postman} alt="Postman" className="tech-stack-img" />
+                <img src={restapi} alt="REST API" className="tech-stack-img" />
+                <img src={canva} alt="Canva" className="tech-stack-img" />
+              </div>
+            }
+            isBlog={false}
+            title="Orbit News-The News App"
+            description="NewsOrbit is a modern React-based news application that fetches and displays the latest news articles by category using NewsAPI. Users can browse top stories, filter by topics, and translate articles into multiple languages for a personalized reading experience. The app features a clean UI, responsive design, and real-time translation powered by LibreTranslate.."
+            ghLink=""
+            demoLink="news-app-gold-iota.vercel.app"
           />
           
         </div>
