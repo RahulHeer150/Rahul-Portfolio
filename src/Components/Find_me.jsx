@@ -16,6 +16,7 @@ const Find = () => {
         {icon: <FaLinkedinIn size={30}/>,to:"/"}
        
       ]
+      
   return (
      <div className="bg-aboutgradient py-24 pb-24 md:px-[4vw] px-[6vw] lg:px-[10vw] bg-[#050414] mt-5">
      <h1 className="text-5xl font-sans text-white text-center pt-6">
