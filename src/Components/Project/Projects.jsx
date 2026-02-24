@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard"; // Assuming you have a ProjectCard comp
 import Particle from "../Particle";
 import portfolioimg from '../../assets/portfolioimg.jpg'; // Assuming you have a profile image
 import newsimg from '../../assets/image.png';
+import civicImg from "../../assets/civic.png"
 
 
 function Projects() {
@@ -86,6 +87,26 @@ function Projects() {
             demoLink="news-app-gold-iota.vercel.app"
           />
           
+          <ProjectCard
+            imgPath={civicImg}
+            techStack={
+              <div className="tech-stack">
+                <img src={react} alt="React" className="tech-stack-img" />
+                <img src={express} alt="Express" className="tech-stack-img" />
+                <img src={mongo} alt="MongoDB" className="tech-stack-img" />
+                <img src={node} alt="Node.js" className="tech-stack-img" />
+                <img src={tailwindcss} alt="Tailwind CSS" className="tech-stack-img" />
+                <img src={postman} alt="Postman" className="tech-stack-img" />
+                <img src={restapi} alt="REST API" className="tech-stack-img" />
+                <img src={canva} alt="Canva" className="tech-stack-img" />
+              </div>
+            }
+            isBlog={false}
+            title="CivicPlus: A smart Community Platform"
+            description="A public Community platform website where peoples can report their local community issues that are ignored by local authorities, can upload image as a proof and vote to other Issues."
+            ghLink=""
+            demoLink="rahul-portfolio-omega-murex.vercel.app"
+          />
         </div>
       </div>
     </div>
