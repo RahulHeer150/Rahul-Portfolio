@@ -62,7 +62,7 @@ function Projects() {
             isBlog={false}
             title="Personal Portfolio Website"
             description="A personal portfolio website showcasing my skills, projects, and experiences. Built with React, Tailwind-CSS, and Framer-motion, it features a responsive design and a user-friendly interface."
-            ghLink=""
+            ghLink="https://github.com/RahulHeer150/Rahul-Portfolio"
             demoLink="rahul-portfolio-omega-murex.vercel.app"
           />
 
@@ -83,8 +83,8 @@ function Projects() {
             isBlog={false}
             title="Orbit News-The News App"
             description="NewsOrbit is a modern React-based news application that fetches and displays the latest news articles by category using NewsAPI. Users can browse top stories, filter by topics, and translate articles into multiple languages for a personalized reading experience. The app features a clean UI, responsive design, and real-time translation powered by LibreTranslate.."
-            ghLink=""
-            demoLink="news-app-gold-iota.vercel.app"
+            ghLink="https://github.com/RahulHeer150/News-App"
+            demoLink="https://github.com/RahulHeer150/News-App"
           />
           
           <ProjectCard
@@ -104,8 +104,8 @@ function Projects() {
             isBlog={false}
             title="CivicPlus: A smart Community Platform"
             description="A public Community platform website where peoples can report their local community issues that are ignored by local authorities, can upload image as a proof and vote to other Issues."
-            ghLink=""
-            demoLink="rahul-portfolio-omega-murex.vercel.app"
+            ghLink="https://github.com/RahulHeer150/civic-"
+            demoLink="https://github.com/RahulHeer150/civic-"
           />
         </div>
       </div>
